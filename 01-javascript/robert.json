@@ -1,0 +1,9 @@
+{
+  "nombre" : "Roberto Toapanta",
+  "edad" : 24,
+  "casado" : null ,
+  "hiojos" : false,
+  "mascotas" : {
+    "nombre" : "lulu"
+  }
+}
