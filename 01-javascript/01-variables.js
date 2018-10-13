@@ -14,7 +14,8 @@ var robert = {
     casado : false,
     hijo : null,
     mascotas : {
-        nombre : "Lulu"
+        nombre : "Lulu",
+        edad : 2
     }
 }; //objectº
 
