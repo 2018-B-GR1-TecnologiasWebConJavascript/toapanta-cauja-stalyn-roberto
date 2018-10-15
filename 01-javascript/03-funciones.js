@@ -45,5 +45,25 @@ function sumarNumeros(...numeros) { // restructuracion de argumentos
 console.log(sumarNumeros(1,2,3));
 console.log(sumarNumeros(1,true,2,3));
 
+function saludar(nombre,funcion) {
+    //funcion(nombre);
+    return `Hola ${funcion(nombre)}`;
+}
+
+console.log(saludar("robert",nombreEnMayuscula));
+console.log(saludar("robert",nombreEnMinisculas));
+console.log(saludar("robert",nombreConPuntoAlFinal));
+
+function nombreEnMayuscula(nombre) {
+    return nombre.toUpperCase();
+}
+
+function nombreEnMinisculas(nombre) {
+    return nombre.toLowerCase();
+}
+
+function nombreConPuntoAlFinal(nombre) {
+    return nombre+".";
+}
 
 
