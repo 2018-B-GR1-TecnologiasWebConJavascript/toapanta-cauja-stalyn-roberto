@@ -63,5 +63,31 @@ aregloTotal.splice(aregloTotal.length,0,11,12,13,14,15,16,17,18,19,20);
 aregloTotal.splice(aregloTotal.length,0,...aregloTotal);
 console.log(aregloTotal);
 
+var stalyn = {
+  nombre : "Stalyn",
+  apellido : "Toapanta"
+};
+
+var toapanta = {
+    sueldo: 1.1
+};
+
+var robert =  {
+    edad : 20,
+    casado : false,
+    hijos : null ,
+    mascotas : {
+        nombre : "Lulu"
+    }
+};
 
 
+
+
+var stalynToapantaRoberto ={
+    ...stalyn,
+    ...robert,
+    ...toapanta
+};
+
+console.log(stalynToapantaRoberto);
