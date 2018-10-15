@@ -64,3 +64,4 @@ aregloTotal.splice(aregloTotal.length,0,...aregloTotal);
 console.log(aregloTotal);
 
 
+
