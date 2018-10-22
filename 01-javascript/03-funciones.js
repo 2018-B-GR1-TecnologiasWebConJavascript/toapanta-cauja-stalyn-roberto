@@ -67,3 +67,64 @@ function nombreConPuntoAlFinal(nombre) {
 }
 
 
+saludar("Maria", function (nombre) {
+    return nombre+"Toapanta";
+});
+
+//tipos de variables
+
+var variable; //nunca mas para definir una varible.
+//utilizar la variable let
+let variableDos = 2;
+variableDos = 3;
+
+const edad = 29; //SIEMPRE QUE PUEDAN usar esta variable.
+
+Const vicente ={
+    nombre:"robert"
+}
+
+vicente.nombre = "robert";
+
+const Areglo ={1,2};
+
+Areglo[0] = 3;
+const  nombre ="hola";
+//nombre = "asd";
+
+const casado = true;
+//casado = "false";
+
+const hijos = null;
+//hijos = 1;
+
+const ganarDinero = function () {
+    return 1;
+};
+
+/*ganarDinero = function () {
+    return 2;
+};*/
+
+//NUNCA VAMOS A USAR LAS FUNCIONES ANONIMAS.
+
+const elevarAlCuadrado = function (numero) {
+    return numero * numero;
+};
+
+//FAT ARROW FUNCTION
+const elevarAlCuadrado = (numero) =>{
+  return numero * numero;
+};
+
+//si se tiene solo una linea de codigo se puede dejar sin llaves
+const  elevarAlCuadrado2 = (numero) => numero*numero;
+const  elevarAlCuadrado3 = numero => numero*numero;
+const restarDosNumeros = (numUno, numDos) => numUno - numDos;
+
+
+
+
+
+
+
