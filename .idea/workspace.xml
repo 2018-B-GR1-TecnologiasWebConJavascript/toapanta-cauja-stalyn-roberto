@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3aa7625-61fc-45fb-8a3c-66d7cd42a3ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-typescript/01-tipo-variables.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-typescript/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-typescript/02-observables.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,26 +33,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="5" />
-          <entry key="ts" value="2" />
+          <entry key="gitignore" value="2" />
+          <entry key="js" value="7" />
+          <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="5" />
-          <entry key="TypeScript" value="2" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="14" />
           <entry key="js" value="4629" />
-          <entry key="ts" value="1632" />
+          <entry key="ts" value="2001" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="4629" />
-          <entry key="TypeScript" value="1632" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="TypeScript" value="2001" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -98,11 +104,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-typescript/01-tipo-variables.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+            <state relative-caret-position="198">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-typescript/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +168,8 @@
         <option value="$PROJECT_DIR$/01-javascript/03-funciones.js" />
         <option value="$PROJECT_DIR$/01-javascript/04-operadores.js" />
         <option value="$PROJECT_DIR$/02-typescript/01-tipo-variables.ts" />
+        <option value="$PROJECT_DIR$/02-typescript/02-observables.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -155,22 +197,6 @@
               <item name="toapanta-cauja-stalyn-roberto" type="b2602c69:ProjectViewProjectNode" />
               <item name="toapanta-cauja-stalyn-roberto" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="toapanta-cauja-stalyn-roberto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toapanta-cauja-stalyn-roberto" type="462c0819:PsiDirectoryNode" />
-              <item name="01-javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toapanta-cauja-stalyn-roberto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toapanta-cauja-stalyn-roberto" type="462c0819:PsiDirectoryNode" />
-              <item name="02-typescript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toapanta-cauja-stalyn-roberto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toapanta-cauja-stalyn-roberto" type="462c0819:PsiDirectoryNode" />
-              <item name="02-typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="01-tipo-variables.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -197,8 +223,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.04-operadores.js">
+  <component name="RunManager" selected="Node.js.02-observables.js">
     <configuration name="01-variables.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01-variables.js" working-dir="$PROJECT_DIR$/01-javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="02-observables.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02-observables.js" working-dir="$PROJECT_DIR$/02-typescript">
       <method v="2" />
     </configuration>
     <configuration name="03-funciones.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="03-funciones.js" working-dir="$PROJECT_DIR$/01-javascript">
@@ -215,9 +244,11 @@
       <item itemvalue="Node.js.dos_areglos.js" />
       <item itemvalue="Node.js.03-funciones.js" />
       <item itemvalue="Node.js.04-operadores.js" />
+      <item itemvalue="Node.js.02-observables.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.02-observables.js" />
         <item itemvalue="Node.js.04-operadores.js" />
         <item itemvalue="Node.js.03-funciones.js" />
         <item itemvalue="Node.js.dos_areglos.js" />
@@ -238,12 +269,12 @@
       <workItem from="1539445672858" duration="1545000" />
       <workItem from="1539638103112" duration="6303000" />
       <workItem from="1540243946070" duration="5402000" />
-      <workItem from="1541452773427" duration="3738000" />
+      <workItem from="1541452773427" duration="5991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16988000" />
+    <option name="totallyTimeSpent" value="19241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -255,14 +286,14 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -274,6 +305,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/02-typescript/01-tipo-variables.js" />
+        <option value="$PROJECT_DIR$/02-typescript/02-observables.js" />
       </list>
     </option>
   </component>
@@ -318,15 +350,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-typescript/01-tipo-variables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="901">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02-typescript/01-tipo-variables.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+        <state relative-caret-position="198">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-typescript/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
