@@ -1,30 +1,30 @@
 // 01-tipo-variables.ts
-let edad = 13; //escritura de tipo tipado
+var edad = 13; //escritura de tipo tipado
 edad = 25;
 edad = 'stalyn';
-const nombre = 'Robert';
-const casado = false;
-let robert = {
+var nombre = 'Robert';
+var casado = false;
+var robert = {
     //JSON
     nombre: 'robert'
 };
 console.log(robert); //nos votara que es un dato undefined porque no esta asignado ningun valor mas que definido las variables y que valores tendra
-const numeros = [1, 2, 3, 4];
-let variableLocal = '';
+var numeros = [1, 2, 3, 4];
+var variableLocal = '';
 variableLocal = false;
-let nombre1 = 'robert';
+var nombre1 = 'robert';
 //nombre1 = 13;
 //duck typing
-let casado1 = false;
+var casado1 = false;
 casado1 = true;
 casado1 = undefined;
 //nombre de tipos de definiciones
-let robert1 = {
+var robert1 = {
     //JSON
     nombre: 'stalyn',
     apellido: 'roberto'
 };
-let fechaNacimiento = new Date(); // asio es como se tipa las clases
+var fechaNacimiento = new Date(); // asio es como se tipa las clases
 /*
 let Promesa :Promise<number> = () => {
     new Promise(
@@ -36,26 +36,33 @@ let Promesa :Promise<number> = () => {
 */
 //restructuraciond e parametros tipando.
 function saludar(nombre, //requerido
-apellido, //opcional
-...otrosNombre) {
+apellido) {
+    var otrosNombre = [];
+    for (var _i = 2; _i < arguments.length; _i++) {
+        otrosNombre[_i - 2] = arguments[_i];
+    }
     return 'hola';
 }
 ;
 saludar('robert', 'toapanta');
-let respuestaSaludar = saludar('robert', 'toapanta'); //castear una variable
+var respuestaSaludar = saludar('robert', 'toapanta'); //castear una variable
 //tipear funciones anonimas
-const saludo = (nombre) => {
+var saludo = function (nombre) {
     return 1;
 };
-class Usuarios {
-    constructor() {
+var Usuarios = /** @class */ (function () {
+    function Usuarios() {
     }
-    saludar() {
+    Usuarios.prototype.saludar = function () {
+    };
+    return Usuarios;
+}());
+var UsuarioDummy = /** @class */ (function () {
+    function UsuarioDummy() {
     }
-}
-class UsuarioDummy {
-}
-const robert3 = {
+    return UsuarioDummy;
+}());
+var robert3 = {
     nombre: 'vicente',
     apellido: 'asdads'
 };
