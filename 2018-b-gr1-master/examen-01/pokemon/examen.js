@@ -42,7 +42,7 @@ function main() {
         var registroTypes;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, registrarse()];
+                case 0: return [4 /*yield*/, lerArchivoTypes()];
                 case 1:
                     registroTypes = _a.sent();
                     return [2 /*return*/];
@@ -50,7 +50,7 @@ function main() {
         });
     });
 }
-function registrarse() {
+function lerArchivoTypes() {
     return new Promise(function (resolve, reject) {
         fs.readFile('usuarios.json', 'utf-8', function (err, contenido) {
             if (err) {
